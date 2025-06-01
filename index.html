@@ -5,83 +5,109 @@
   <title>中島颯太 | Sota Nakajima</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    /* 全体のリセットと共通設定 */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: "Noto Sans JP", sans-serif;
-      line-height: 1.7;
-      margin: 2rem auto;
-      max-width: 720px;
-      padding: 0 1rem;
+      font-family: "BIZ UDGothic", "M PLUS 1P", "Noto Sans JP", sans-serif;
+      line-height: 1.6; /* 可読性向上のため行間を調整 */
+      margin: 3rem auto; /* 上下のマージンを少し増やしました */
+      max-width: 760px; /* 最大幅を少し広げました */
+      padding: 0 1.5rem; /* 左右のパディングを調整 */
       color: #1b1b1b;
       background: #ffffff;
+      font-size: 1.1rem; /* 基本フォントサイズを調整 */
     }
 
     h1 {
-      font-size: 2em;
+      font-size: 2.2em; /* 見出しのサイズを調整 */
       border-bottom: 2px solid #dcdcdc;
-      padding-bottom: 0.2em;
+      padding-bottom: 0.4em; /* パディングを調整 */
+      margin-bottom: 1.5rem; /* 下マージンを追加 */
     }
 
     h2 {
-      font-size: 1.4em;
-      margin-top: 2rem;
+      font-size: 1.6em; /* 見出しのサイズを調整 */
+      margin-top: 3rem; /* 上マージンを調整 */
+      margin-bottom: 1rem; /* 下マージンを追加 */
       color: #333;
     }
 
     ul {
       list-style-type: disc;
-      padding-left: 1.5rem;
+      padding-left: 1.8rem; /* インデントを調整 */
+      margin-bottom: 1.5rem; /* 下マージンを追加 */
     }
 
     li {
-      margin-bottom: 0.5em;
+      margin-bottom: 0.6em; /* リスト項目の間隔を調整 */
     }
 
     footer {
-      margin-top: 3rem;
-      font-size: 0.875rem;
+      margin-top: 4rem; /* 上マージンを調整 */
+      font-size: 0.9rem; /* フォントサイズを調整 */
       color: #4d4d4d;
       text-align: center;
       border-top: 1px solid #dcdcdc;
-      padding-top: 1rem;
+      padding-top: 1.5rem; /* 上パディングを調整 */
     }
 
     .last-updated {
-      font-size: 0.875rem;
+      font-size: 0.8rem; /* フォントサイズを調整 */
       color: #6c757d;
-      margin-top: 0.25rem;
+      margin-top: 0.5rem; /* 上マージンを調整 */
     }
   </style>
 </head>
 <body>
 
-  <h1>中島 颯太</h1>
+  <main>
+    <h1>中島 颯太</h1>
 
-  <h2>Info</h2>
-  <p>
-    2001年 北海道釧路市生まれ　左利き<br>
-    2020年 伊奈学園総合高校　卒業<br>
-    2024年 情報経営イノベーション専門職大学（iU）卒業<br>
-    2025年 個人事業主<br>
-  </p>
-  <ul>
-    <li>趣味：読書、盆栽、料理、野菜作り</li>
-  </ul>
+    <section>
+      <h2>Info</h2>
+      <p>
+        2001年 北海道釧路市生まれ　左利き<br>
+        2020年 伊奈学園総合高校　卒業<br>
+        2024年 情報経営イノベーション専門職大学（iU）卒業<br>
+        2025年 個人事業主<br>
+      </p>
+      <ul>
+        <li>趣味：読書、盆栽、料理、野菜作り</li>
+      </ul>
+    </section>
 
-  <h2>Interests</h2>
-  <ul>
-    <li>感動をつくる</li>
-    <li>地域ごとの自然や文化に根ざした、小さな経済圏の構築</li>
-       <li>田んぼ、酒蔵、旅館</li>
-    <li>環境保全と利益追求の併存</li>
-  </ul>
+    <section>
+      <h2>Interests</h2>
+      <ul>
+        <li>感動をつくること</li>
+        <li>日本各地個性に応じた小さな経済圏の構築
+          <ul>
+            <li>棚田、酒蔵、旅館</li>
+          </ul>
+        </li>
+        <li>環境保全と利益追求の併存</li>
+        <li>表現の探究
+          <ul>
+            <li>画面越しに熱を伝えること</li>
+            <li>アテンション経済に依存しないインセンティブ設計</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
 
-  <h2>Works</h2>
-  <ul>
-    <li>新規事業開発</li>
-    <li>TikTokアカウントの戦略構築・運用（新規チャネル、Z世代対応）</li>
-    <li>Twitterのソーシャルリスニング（データに基づく企画提案の基盤）</li>
-    <li>インフルエンサーマーケティングの実務（企画・依頼）</li>
-  </ul>
+    <section>
+      <h2>Works</h2>
+      <ul>
+        <li>新規事業開発</li>
+        <li>TikTokアカウントの戦略構築・運用（新規チャネル、Z世代対応）</li>
+        <li>Twitterのソーシャルリスニング（データに基づく企画提案の基盤）</li>
+        <li>インフルエンサーマーケティングの実務（企画・依頼）</li>
+      </ul>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 中島颯太</p>
