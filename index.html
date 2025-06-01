@@ -11,53 +11,59 @@
     }
 
     body {
-      font-family: "BIZ UDGothic", "M PLUS 1P", "Noto Sans JP", sans-serif;
-      line-height: 1.6; /* 可読性向上のため行間を調整 */
-      margin: 3rem auto; /* 上下のマージンを少し増やしました */
-      max-width: 760px; /* 最大幅を少し広げました */
-      padding: 0 1.5rem; /* 左右のパディングを調整 */
-      color: #1b1b1b;
-      background: #ffffff;
-      font-size: 1.1rem; /* 基本フォントサイズを調整 */
+      /* タイポグラフィ: Noto Sans JP を優先し、可読性の高いフォントを指定 */
+      font-family: "Noto Sans JP", "BIZ UDGothic", "M PLUS 1P", sans-serif;
+      line-height: 1.6; /* タイポグラフィ: 本文の行高は1.5倍以上を推奨 */
+      
+      /* レイアウト・間隔: 中央寄せ、最大幅、左右パディング */
+      margin: 3rem auto; /* 間隔: 48px 相当 (8pxの6倍) */
+      max-width: 760px; /* レイアウト: コンテンツの最大幅を維持 */
+      padding: 0 1.5rem; /* 間隔: 左右24px 相当 (8pxの3倍) */
+      
+      /* カラー: テキストと背景のコントラスト比を確保 */
+      color: #1b1b1b; /* 濃いグレー */
+      background: #ffffff; /* 白 */
+      
+      font-size: 1.1rem; /* タイポグラフィ: 基本フォントサイズ (約17.6px) */
     }
 
     h1 {
-      font-size: 2.2em; /* 見出しのサイズを調整 */
+      font-size: 2.2em; /* タイポグラフィ: 見出しサイズ */
       border-bottom: 2px solid #dcdcdc;
-      padding-bottom: 0.4em; /* パディングを調整 */
-      margin-bottom: 1.5rem; /* 下マージンを追加 */
+      padding-bottom: 0.4em; /* 間隔: 見出し下部のパディング */
+      margin-bottom: 1.5rem; /* 間隔: 24px 相当 (8pxの3倍) */
     }
 
     h2 {
-      font-size: 1.6em; /* 見出しのサイズを調整 */
-      margin-top: 3rem; /* 上マージンを調整 */
-      margin-bottom: 1rem; /* 下マージンを追加 */
+      font-size: 1.6em; /* タイポグラフィ: 見出しサイズ */
+      margin-top: 3rem; /* 間隔: 48px 相当 (8pxの6倍) */
+      margin-bottom: 1rem; /* 間隔: 16px 相当 (8pxの2倍) */
       color: #333;
     }
 
     ul {
       list-style-type: disc;
-      padding-left: 1.8rem; /* インデントを調整 */
-      margin-bottom: 1.5rem; /* 下マージンを追加 */
+      padding-left: 2rem; /* 間隔: 32px 相当 (8pxの4倍) - リストインデント */
+      margin-bottom: 1.5rem; /* 間隔: 24px 相当 (8pxの3倍) */
     }
 
     li {
-      margin-bottom: 0.6em; /* リスト項目の間隔を調整 */
+      margin-bottom: 0.6em; /* 間隔: リスト項目の間隔 */
     }
 
     footer {
-      margin-top: 4rem; /* 上マージンを調整 */
-      font-size: 0.9rem; /* フォントサイズを調整 */
+      margin-top: 4rem; /* 間隔: 64px 相当 (8pxの8倍) */
+      font-size: 0.9rem; /* タイポグラフィ: フッターのフォントサイズ (約14.4px) - 14px基準 */
       color: #4d4d4d;
       text-align: center;
       border-top: 1px solid #dcdcdc;
-      padding-top: 1.5rem; /* 上パディングを調整 */
+      padding-top: 1.5rem; /* 間隔: 24px 相当 (8pxの3倍) */
     }
 
     .last-updated {
-      font-size: 0.8rem; /* フォントサイズを調整 */
+      font-size: 0.875rem; /* タイポグラフィ: 14px 相当 (8pxの1.75倍) - 14px基準に調整 */
       color: #6c757d;
-      margin-top: 0.5rem; /* 上マージンを調整 */
+      margin-top: 0.5rem; /* 間隔: 8px 相当 (8pxの1倍) */
     }
   </style>
 </head>
